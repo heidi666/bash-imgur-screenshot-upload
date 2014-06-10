@@ -7,3 +7,4 @@ url='https://i.imgur.com/'$picid'.png'
 rm -f temp.png
 echo $url | xclip -selection clipboard
 notify-send 'Success: '$url
+xdg-open $url
